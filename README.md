@@ -16,7 +16,7 @@
   拖拽到此注释下方，GitHub 会自动生成 `https://github.com/user-attachments/assets/...` 原生 <video> 播放器，
   无需跳转 YouTube / Google Drive，在仓库首页直接流畅播放！
 -->
-> **▶ 实机演示视频（1080p 确定性逐帧录制）**：将本地 `media_for_github_upload/chongqing_github.mp4` 拖入 GitHub 网页编辑器即可在此处直接内嵌原生 `<video>` 播放。
+> **▶ 实机演示视频（1080p 确定性逐帧录制）**：https://github.com/user-attachments/assets/454f6675-ece0-48a9-8cb9-e8d14f48a4cf
 
 **核心亮点（真实 8D 山城 + 建筑级实景建模 + 250+ FPS）：**
 - **真三维 8D 山地地形**：以解放碑（`106.573357°E, 29.560101°N`，真实 WGS-84）为原点，覆盖 `24 km × 22 km`（`528` 张 1 km 瓦片）及 `64 km × 64 km` 远景山脉；核心区采用 **2.5 m Voronoi 道路削平精修 DEM**（`terrain_core.bin`），实现平缓道路台地、清晰堡坎崖壁与长江/嘉陵江两江平面（水高基准 `168 m ASL`），核心车道横坡 `>10°` 仅 `0.29%`。
@@ -51,14 +51,21 @@
 ![上海 3D · 漫步全景封面](docs/covers/shanghai_cover.jpg)
 
 <!-- 拖拽本地 `media_for_github_upload/shanghai_github.mp4` 到 GitHub 网页编辑器此处以启用原生内嵌视频播放 -->
-> **▶ 实机演示视频**：将本地 `media_for_github_upload/shanghai_github.mp4` 拖入 GitHub 网页编辑器即可直接内嵌播放。详情见 [`shanghai_3d/README.md`](shanghai_3d/README.md)。
+> **▶ 实机演示视频**：
+
+https://github.com/user-attachments/assets/33fcdd23-3774-434d-b3cd-5127fc839d38
+
+
 
 ### 北京 · 五环之内 (`beijing_3d`)
 
 ![北京 3D · 五环之内封面](docs/covers/beijing_cover.jpg)
 
 <!-- 拖拽本地 `media_for_github_upload/beijing_github.mp4` 到 GitHub 网页编辑器此处以启用原生内嵌视频播放 -->
-> **▶ 实机演示视频**：将本地 `media_for_github_upload/beijing_github.mp4` 拖入 GitHub 网页编辑器即可直接内嵌播放。详情见 [`beijing_3d/README.md`](beijing_3d/README.md)。
+> **▶ 实机演示视频**：
+
+https://github.com/user-attachments/assets/07f8ef2b-21e9-466f-8232-8a44cb3082e6
+
 
 > **为什么推荐直接拖拽 `media_for_github_upload/*_github.mp4` 到 GitHub README 编辑器？**
 > GitHub Markdown 仅对直接拖拽上传到 `github.com/user-attachments/assets/...` 的 MP4（免费账号单文件上限 10 MB）渲染原生 `<video>` 内嵌播放器；YouTube 链接只能显示缩略图跳转，Google Drive 外链无法在 README 中直接播放。本仓库配套的 `media_for_github_upload/*_github.mp4`（已加入 `.gitignore`，不占 Git 历史体积）均严格控制在 **9.5 MB 以内**，直接拖入 GitHub 网页端即可实现三城原生视频直放！
