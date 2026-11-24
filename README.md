@@ -16,7 +16,9 @@
   拖拽到此注释下方，GitHub 会自动生成 `https://github.com/user-attachments/assets/...` 原生 <video> 播放器，
   无需跳转 YouTube / Google Drive，在仓库首页直接流畅播放！
 -->
-> **▶ 实机演示视频（1080p 确定性逐帧录制）**：https://github.com/user-attachments/assets/454f6675-ece0-48a9-8cb9-e8d14f48a4cf
+> **▶ 实机演示视频（1080p 确定性逐帧录制）**：
+
+https://github.com/user-attachments/assets/454f6675-ece0-48a9-8cb9-e8d14f48a4cf
 
 **核心亮点（真实 8D 山城 + 建筑级实景建模 + 250+ FPS）：**
 - **真三维 8D 山地地形**：以解放碑（`106.573357°E, 29.560101°N`，真实 WGS-84）为原点，覆盖 `24 km × 22 km`（`528` 张 1 km 瓦片）及 `64 km × 64 km` 远景山脉；核心区采用 **2.5 m Voronoi 道路削平精修 DEM**（`terrain_core.bin`），实现平缓道路台地、清晰堡坎崖壁与长江/嘉陵江两江平面（水高基准 `168 m ASL`），核心车道横坡 `>10°` 仅 `0.29%`。
