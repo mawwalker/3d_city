@@ -2,11 +2,18 @@
 
 > **纯静态 · 零后端 · 零外部 CDN · 打开浏览器即可漫游的真实 WGS-84 三维中国城市**
 >
+> **🌐 在线实机体验（Live Browser Demos）**：
+> - **重庆 3D（8D 山城旗舰）**：https://chongqing.smartdeng.com/
+> - **上海 3D（漫步全景）**：https://shanghai.smartdeng.com/
+> - **北京 3D（五环之内）**：https://beijing.smartdeng.com/
+>
 > **Chongqing 3D (8D Mountain City Flagship) · Shanghai 3D · Beijing 3D** — Three interactive, pure-static WebGL 2 3D city explorers built directly from real WGS-84 OpenStreetMap, Copernicus GLO-30 DEM, GlobalBuildingAtlas, and Overture Maps datasets.
 
 ---
 
 ## 旗舰作品 · 重庆 3D：8D 魔幻山城全景 (`chongqing_3d`)
+
+> **🌐 在线体验 / Live Demo**：**[https://chongqing.smartdeng.com/](https://chongqing.smartdeng.com/)**（直接点击即可在浏览器中步行与飞行漫游）
 
 ![重庆 3D · 山城全景封面](docs/covers/chongqing_cover.jpg)
 
@@ -42,6 +49,7 @@ https://github.com/user-attachments/assets/454f6675-ece0-48a9-8cb9-e8d14f48a4cf
 | **地标与立体交通** | 故宫、天坛、国贸 CBD、鸟巢等 | 陆家嘴三件套、外滩、豫园、6 座黄浦江大桥、江船 | **洪崖洞、来福士、李子坝轻轨穿楼、长江索道、大礼堂、大剧院、十八梯、苏家坝、黄桷湾、8 座跨江大桥、904 座 3D 隧道洞门** |
 | **动态系统** | 路面着色器车流 + 进近客机 + 四季 | 完整车流仿真 + 路牌 + 317 万棵树 + 行人 + 渡轮 | **立体坡道/隧道车流 + 零瞬移零穿墙行人 + 动态单轨列车 + 过江索道 + 两江游船 + 91.6 万棵树 + 晴/霾/阴/雨夜** |
 | **静态站点体积 (`site/`)** | ~43 MB | ~142 MB | ~81 MB（单文件最大 `20 MB`） |
+| **在线演示 / Live Demo** | [beijing.smartdeng.com](https://beijing.smartdeng.com/) | [shanghai.smartdeng.com](https://shanghai.smartdeng.com/) | **[chongqing.smartdeng.com](https://chongqing.smartdeng.com/)** |
 | **本地默认端口** | `8765` | `8766` | `8768` |
 
 ---
@@ -49,6 +57,8 @@ https://github.com/user-attachments/assets/454f6675-ece0-48a9-8cb9-e8d14f48a4cf
 ## 更多城市 · 上海 3D & 北京 3D
 
 ### 上海 · 漫步全景 (`shanghai_3d`)
+
+> **🌐 在线体验 / Live Demo**：**[https://shanghai.smartdeng.com/](https://shanghai.smartdeng.com/)**
 
 ![上海 3D · 漫步全景封面](docs/covers/shanghai_cover.jpg)
 
@@ -60,6 +70,8 @@ https://github.com/user-attachments/assets/33fcdd23-3774-434d-b3cd-5127fc839d38
 
 
 ### 北京 · 五环之内 (`beijing_3d`)
+
+> **🌐 在线体验 / Live Demo**：**[https://beijing.smartdeng.com/](https://beijing.smartdeng.com/)**
 
 ![北京 3D · 五环之内封面](docs/covers/beijing_cover.jpg)
 
@@ -139,9 +151,9 @@ cd 3d_city
 
 **3D City (`mawwalker/3d_city`)** is a collection of three pure-static, zero-backend, zero-CDN **WebGL 2** real-time 3D city explorers built from genuine **WGS-84** open geographic data:
 
-- **Chongqing 3D (`chongqing_3d`, Flagship)**: Full `24×22 km` 8D Mountain City (`528` streamed `'CQT2'` tiles + `64 km` backdrop) featuring a **2.5 m Voronoi road-benched Copernicus DEM**, **141,090 zero-overlap true-3D buildings** with hillside retaining plinths & 16 parallax furnished interior rooms, **38×1024px PBR materials**, **23 hand-crafted hero landmarks & cross-river bridges** (Hongyadong, Raffles City, Liziba CRT Line 2 monorail passing through the building, Yangtze River Cableway, Sujiaba 72 m spiral, Huangjuewan 5-level interchange, 8 river bridges, and **904 3D mountain tunnel portals**), live traffic & teleport-free/clip-free pedestrians, running at **250–300 FPS** at 1080p Ultra.
-- **Shanghai 3D (`shanghai_3d`)**: First-person walkable metropolis (~1M buildings, 3.17M trees, full lane-accurate traffic simulation, Huangpu River bridges & boats, Lujiazui skyline).
-- **Beijing 3D (`beijing_3d`)**: Orbit-camera 3D model inside/around the Fifth Ring Road (~980k buildings, Western Hills DEM, imperial landmarks, seasonal autumn/snow/summer modes).
+- **Chongqing 3D (`chongqing_3d`, Flagship — Live: [chongqing.smartdeng.com](https://chongqing.smartdeng.com/))**: Full `24×22 km` 8D Mountain City (`528` streamed `'CQT2'` tiles + `64 km` backdrop) featuring a **2.5 m Voronoi road-benched Copernicus DEM**, **141,090 zero-overlap true-3D buildings** with hillside retaining plinths & 16 parallax furnished interior rooms, **38×1024px PBR materials**, **23 hand-crafted hero landmarks & cross-river bridges** (Hongyadong, Raffles City, Liziba CRT Line 2 monorail passing through the building, Yangtze River Cableway, Sujiaba 72 m spiral, Huangjuewan 5-level interchange, 8 river bridges, and **904 3D mountain tunnel portals**), live traffic & teleport-free/clip-free pedestrians, running at **250–300 FPS** at 1080p Ultra.
+- **Shanghai 3D (`shanghai_3d` — Live: [shanghai.smartdeng.com](https://shanghai.smartdeng.com/))**: First-person walkable metropolis (~1M buildings, 3.17M trees, full lane-accurate traffic simulation, Huangpu River bridges & boats, Lujiazui skyline).
+- **Beijing 3D (`beijing_3d` — Live: [beijing.smartdeng.com](https://beijing.smartdeng.com/))**: Orbit-camera 3D model inside/around the Fifth Ring Road (~980k buildings, Western Hills DEM, imperial landmarks, seasonal autumn/snow/summer modes).
 
 Run any city locally with `./chongqing_3d/serve.sh`, `./shanghai_3d/serve.sh`, or `./beijing_3d/serve.sh`.
 

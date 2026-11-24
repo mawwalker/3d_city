@@ -4,6 +4,8 @@
 
 纯静态网站，无后端；Three.js、three-mesh-bvh 与 earcut 已随站点打包，零外部 CDN 依赖。
 
+**🌐 在线体验 / Live Demo**：**[https://chongqing.smartdeng.com/](https://chongqing.smartdeng.com/)**
+
 ## 快速运行
 
 ```bash
