@@ -1,0 +1,2 @@
+The fonts in this directory are subsets of Source Han Serif (思源宋体) by Adobe, licensed under the SIL Open Font License, Version 1.1.
+https://github.com/adobe-fonts/source-han-serif

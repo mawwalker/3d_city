@@ -1,0 +1,58 @@
+3D City (Beijing 3D, Shanghai 3D, Chongqing 3D)
+Copyright 2026 mawwalker (https://github.com/mawwalker/3d_city)
+
+This product includes original WebGL 2 3D city rendering software, shaders,
+procedural architectural modeling engines, hero landmark & bridge models,
+GIS/DEM data pipelines, and cinematic capture tooling developed by mawwalker.
+
+================================================================================
+MANDATORY ATTRIBUTION NOTICE (Apache License, Version 2.0, Section 4(d))
+================================================================================
+
+Redistributions of source code, derivative works, modified versions, and
+deployed web applications or visualizations built from this software MUST
+retain this NOTICE file and preserve clear, visible attribution to:
+
+    3D City (https://github.com/mawwalker/3d_city) — Copyright 2026 mawwalker
+
+Where a deployed application or derivative work displays a third-party notices
+area, footer, or About dialog (such as the map attribution bar), this notice
+must appear alongside upstream map credits.
+
+================================================================================
+UPSTREAM OPEN DATA, ASSETS & LIBRARY ATTRIBUTIONS
+================================================================================
+
+This repository incorporates derived geographic data, CC0 textures, open fonts,
+and third-party runtime libraries governed by their respective upstream open
+licenses (see THIRD_PARTY_NOTICES.md for complete citations & license texts):
+
+1. OpenStreetMap (ODbL 1.0):
+   Map, building, road, bridge, tunnel, railway, water, landuse & place data:
+   © OpenStreetMap contributors (https://www.openstreetmap.org/copyright).
+   Extracts via Geofabrik.
+
+2. Copernicus DEM GLO-30 (Copernicus DEM License):
+   © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided
+   under COPERNICUS by the European Union and ESA; all rights reserved.
+
+3. Open Building, Land-Cover & Canopy Datasets (CC BY 4.0 / ODbL / CDLA):
+   - GlobalBuildingAtlas LoD1 (Zhu et al., ESSD 2025, CC BY 4.0)
+   - Overture Maps Foundation Buildings (ODbL 1.0 / CDLA-Permissive-2.0;
+     East Asia footprints incl. Shi et al., CC BY 4.0)
+   - 3D-GloBFP (Che et al., ESSD 2024, CC BY 4.0)
+   - CMAB (Zhang et al., Scientific Data 2025, CC BY 4.0)
+   - CBMF (Zenodo 18595960, CC BY 4.0)
+   - SinoLC-1 (Li et al., ESSD 2023, CC BY 4.0)
+   - Meta / WRI High Resolution Canopy Height Maps v1 (CC BY 4.0)
+
+4. PBR Material Textures (CC0 1.0 Universal):
+   - ambientCG (https://ambientcg.com/)
+   - Poly Haven (https://polyhaven.com/)
+
+5. Vendored Runtime Libraries & Fonts:
+   - Three.js (MIT License, © 2010-2026 three.js authors)
+   - three-mesh-bvh (MIT License, © 2018 Garrett Johnson)
+   - earcut (ISC License, © 2026 Mapbox)
+   - Source Han Serif / Source Han Sans / IBM Plex Sans / Google OFL CJK fonts
+     (SIL Open Font License 1.1)

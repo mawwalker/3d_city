@@ -1,0 +1,10 @@
+# Raw downloads and intermediate pipeline products (rebuild with pipeline/build_all.sh)
+# Leading slashes keep site/data/ tracked while ignoring top-level data/!
+/data/
+/.venv/
+/tools/node_modules/
+/shots/
+/video/
+/.wrangler/
+__pycache__/
+*.pyc

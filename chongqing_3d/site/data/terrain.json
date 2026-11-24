@@ -1,0 +1,40 @@
+{
+ "datum_asl": 168.0,
+ "waterY": 0.0,
+ "core": {
+  "file": "terrain_core.bin",
+  "x0": -6500.0,
+  "y0": -4000.0,
+  "cell": 2.5,
+  "nx": 4600,
+  "ny": 3400,
+  "scale": 0.02,
+  "offset": -20.0,
+  "min": -2.5,
+  "max": 510.93
+ },
+ "fine": {
+  "file": "terrain_fine.bin",
+  "x0": -14500.0,
+  "y0": -10500.0,
+  "cell": 10.0,
+  "nx": 2500,
+  "ny": 2300,
+  "scale": 0.1,
+  "offset": -20.0,
+  "min": -2.5,
+  "max": 510.61
+ },
+ "coarse": {
+  "file": "terrain_coarse.bin",
+  "x0": -34000.0,
+  "y0": -32000.0,
+  "cell": 100.0,
+  "nx": 640,
+  "ny": 640,
+  "scale": 0.1,
+  "offset": -20.0,
+  "min": -2.5,
+  "max": 761.09
+ }
+}

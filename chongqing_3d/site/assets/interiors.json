@@ -1,0 +1,216 @@
+{
+ "file": "interiors.webp",
+ "size": 512,
+ "cellW": 512,
+ "cellH": 512,
+ "layers": 16,
+ "count": 16,
+ "cols": 4,
+ "rows": 4,
+ "projection": "perspective_box_v1",
+ "backWallInset": 0.25,
+ "depth": 1.0,
+ "vOrigin": "top",
+ "groups": {
+  "residential": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "office": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "shop": [
+   11,
+   12,
+   13,
+   14,
+   15
+  ]
+ },
+ "rooms": [
+  {
+   "index": 0,
+   "name": "resi_living_warm",
+   "group": "residential",
+   "nightTint": [
+    1.0,
+    0.88,
+    0.7
+   ],
+   "emissiveGain": 1.15
+  },
+  {
+   "index": 1,
+   "name": "resi_living_modern",
+   "group": "residential",
+   "nightTint": [
+    1.0,
+    0.94,
+    0.84
+   ],
+   "emissiveGain": 1.05
+  },
+  {
+   "index": 2,
+   "name": "resi_bedroom_warm",
+   "group": "residential",
+   "nightTint": [
+    1.0,
+    0.82,
+    0.58
+   ],
+   "emissiveGain": 0.92
+  },
+  {
+   "index": 3,
+   "name": "resi_study_books",
+   "group": "residential",
+   "nightTint": [
+    1.0,
+    0.88,
+    0.68
+   ],
+   "emissiveGain": 1.05
+  },
+  {
+   "index": 4,
+   "name": "resi_old_apt",
+   "group": "residential",
+   "nightTint": [
+    0.96,
+    0.95,
+    0.82
+   ],
+   "emissiveGain": 1.0
+  },
+  {
+   "index": 5,
+   "name": "resi_kitchen_dining",
+   "group": "residential",
+   "nightTint": [
+    1.0,
+    0.9,
+    0.72
+   ],
+   "emissiveGain": 1.12
+  },
+  {
+   "index": 6,
+   "name": "office_open_cool",
+   "group": "office",
+   "nightTint": [
+    0.88,
+    0.95,
+    1.0
+   ],
+   "emissiveGain": 1.2
+  },
+  {
+   "index": 7,
+   "name": "office_exec_warm",
+   "group": "office",
+   "nightTint": [
+    1.0,
+    0.9,
+    0.74
+   ],
+   "emissiveGain": 1.12
+  },
+  {
+   "index": 8,
+   "name": "office_bright_grid",
+   "group": "office",
+   "nightTint": [
+    0.94,
+    0.97,
+    1.0
+   ],
+   "emissiveGain": 1.25
+  },
+  {
+   "index": 9,
+   "name": "office_lounge_atrium",
+   "group": "office",
+   "nightTint": [
+    1.0,
+    0.88,
+    0.68
+   ],
+   "emissiveGain": 1.1
+  },
+  {
+   "index": 10,
+   "name": "office_night_partial",
+   "group": "office",
+   "nightTint": [
+    0.85,
+    0.92,
+    1.0
+   ],
+   "emissiveGain": 0.82
+  },
+  {
+   "index": 11,
+   "name": "shop_hotpot",
+   "group": "shop",
+   "nightTint": [
+    1.0,
+    0.78,
+    0.48
+   ],
+   "emissiveGain": 1.45
+  },
+  {
+   "index": 12,
+   "name": "shop_convenience",
+   "group": "shop",
+   "nightTint": [
+    0.92,
+    0.98,
+    1.0
+   ],
+   "emissiveGain": 1.38
+  },
+  {
+   "index": 13,
+   "name": "shop_teahouse",
+   "group": "shop",
+   "nightTint": [
+    1.0,
+    0.84,
+    0.56
+   ],
+   "emissiveGain": 1.35
+  },
+  {
+   "index": 14,
+   "name": "shop_bakery_pharm",
+   "group": "shop",
+   "nightTint": [
+    1.0,
+    0.89,
+    0.7
+   ],
+   "emissiveGain": 1.35
+  },
+  {
+   "index": 15,
+   "name": "shop_cafe_boutique",
+   "group": "shop",
+   "nightTint": [
+    1.0,
+    0.84,
+    0.58
+   ],
+   "emissiveGain": 1.35
+  }
+ ]
+}

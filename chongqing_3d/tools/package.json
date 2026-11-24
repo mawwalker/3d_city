@@ -1,0 +1,9 @@
+{
+  "name": "chongqing3d-tools",
+  "private": true,
+  "type": "module",
+  "description": "Headless screenshot and visual QA tooling for Chongqing 3D",
+  "dependencies": {
+    "playwright-core": "1.64.1"
+  }
+}

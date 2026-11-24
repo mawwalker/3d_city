@@ -1,0 +1,426 @@
+{
+ "size": 1024,
+ "layers": 38,
+ "cols": 4,
+ "rows": 10,
+ "materials": {
+  "asphalt": {
+   "layer": 0,
+   "metres": 3.0,
+   "source": "acg:Asphalt023S",
+   "mean": [
+    0.1215,
+    0.1196,
+    0.103
+   ],
+   "rough": 0.672
+  },
+  "asphalt_worn": {
+   "layer": 1,
+   "metres": 4.0,
+   "source": "acg:Asphalt026C",
+   "mean": [
+    0.0269,
+    0.0264,
+    0.0232
+   ],
+   "rough": 0.48
+  },
+  "pavers": {
+   "layer": 2,
+   "metres": 2.0,
+   "source": "acg:PavingStones035",
+   "mean": [
+    0.3071,
+    0.311,
+    0.3145
+   ],
+   "rough": 0.556
+  },
+  "pavers_brick": {
+   "layer": 3,
+   "metres": 2.0,
+   "source": "acg:PavingStones129",
+   "mean": [
+    0.1731,
+    0.1502,
+    0.1304
+   ],
+   "rough": 0.48
+  },
+  "slabs": {
+   "layer": 4,
+   "metres": 3.5,
+   "source": "acg:PavingStones125A",
+   "mean": [
+    0.2919,
+    0.2722,
+    0.2245
+   ],
+   "rough": 0.639
+  },
+  "concrete": {
+   "layer": 5,
+   "metres": 3.0,
+   "source": "acg:Concrete034",
+   "mean": [
+    0.3947,
+    0.3947,
+    0.3947
+   ],
+   "rough": 0.545
+  },
+  "grass": {
+   "layer": 6,
+   "metres": 2.5,
+   "source": "acg:Grass004",
+   "mean": [
+    0.1123,
+    0.1426,
+    0.0304
+   ],
+   "rough": 0.297
+  },
+  "soil": {
+   "layer": 7,
+   "metres": 2.5,
+   "source": "acg:Ground048",
+   "mean": [
+    0.0942,
+    0.0505,
+    0.0338
+   ],
+   "rough": 0.683
+  },
+  "leaves": {
+   "layer": 8,
+   "metres": 2.5,
+   "source": "acg:ScatteredLeaves008",
+   "mean": [
+    0.3443,
+    0.2319,
+    0.0063
+   ],
+   "rough": 0.537
+  },
+  "gravel": {
+   "layer": 9,
+   "metres": 2.0,
+   "source": "acg:Gravel043",
+   "mean": [
+    0.1436,
+    0.145,
+    0.1335
+   ],
+   "rough": 0.591
+  },
+  "plaster": {
+   "layer": 10,
+   "metres": 3.0,
+   "source": "acg:Plaster001",
+   "mean": [
+    0.5635,
+    0.5416,
+    0.5224
+   ],
+   "rough": 0.811
+  },
+  "plaster_stained": {
+   "layer": 11,
+   "metres": 3.0,
+   "source": "acg:Plaster007",
+   "mean": [
+    0.3874,
+    0.3832,
+    0.3518
+   ],
+   "rough": 0.548
+  },
+  "tiles_white": {
+   "layer": 12,
+   "metres": 1.2,
+   "source": "acg:Tiles133A",
+   "mean": [
+    0.5282,
+    0.5998,
+    0.6149
+   ],
+   "rough": 0.291
+  },
+  "brick_red": {
+   "layer": 13,
+   "metres": 2.4,
+   "source": "acg:Bricks059",
+   "mean": [
+    0.2922,
+    0.16,
+    0.1035
+   ],
+   "rough": 0.635
+  },
+  "brick_grey": {
+   "layer": 14,
+   "metres": 2.4,
+   "source": "acg:Bricks061",
+   "mean": [
+    0.2615,
+    0.2578,
+    0.2504
+   ],
+   "rough": 0.654
+  },
+  "concrete_panel": {
+   "layer": 15,
+   "metres": 3.0,
+   "source": "acg:Concrete010",
+   "mean": [
+    0.2027,
+    0.2026,
+    0.2047
+   ],
+   "rough": 0.555
+  },
+  "pebbledash": {
+   "layer": 16,
+   "metres": 2.0,
+   "source": "acg:Concrete049",
+   "mean": [
+    0.1971,
+    0.1612,
+    0.1266
+   ],
+   "rough": 0.677
+  },
+  "granite": {
+   "layer": 17,
+   "metres": 2.5,
+   "source": "acg:Granite002A",
+   "mean": [
+    0.4128,
+    0.3947,
+    0.3733
+   ],
+   "rough": 0.216
+  },
+  "metal_panel": {
+   "layer": 18,
+   "metres": 3.0,
+   "source": "acg:MetalPlates006",
+   "mean": [
+    0.0597,
+    0.066,
+    0.068
+   ],
+   "rough": 0.249
+  },
+  "corrugated": {
+   "layer": 19,
+   "metres": 2.0,
+   "source": "acg:CorrugatedSteel005",
+   "mean": [
+    0.2534,
+    0.2592,
+    0.2692
+   ],
+   "rough": 0.363
+  },
+  "roof_clay": {
+   "layer": 20,
+   "metres": 2.4,
+   "source": "acg:RoofingTiles014A",
+   "mean": [
+    0.1551,
+    0.0606,
+    0.0332
+   ],
+   "rough": 0.729
+  },
+  "roof_grey": {
+   "layer": 21,
+   "metres": 2.4,
+   "source": "acg:RoofingTiles015A",
+   "mean": [
+    0.0773,
+    0.0613,
+    0.0697
+   ],
+   "rough": 0.554
+  },
+  "bitumen": {
+   "layer": 22,
+   "metres": 3.0,
+   "source": "ph:bitumen",
+   "mean": [
+    0.0379,
+    0.033,
+    0.0305
+   ],
+   "rough": 0.93
+  },
+  "bark": {
+   "layer": 23,
+   "metres": 1.6,
+   "source": "ph:japanese_sycamore",
+   "mean": [
+    0.3206,
+    0.2822,
+    0.2222
+   ],
+   "rough": 0.689
+  },
+  "bark_rough": {
+   "layer": 24,
+   "metres": 1.6,
+   "source": "ph:japanese_camphor_bark",
+   "mean": [
+    0.3245,
+    0.2168,
+    0.145
+   ],
+   "rough": 0.696
+  },
+  "planks": {
+   "layer": 25,
+   "metres": 2.4,
+   "source": "acg:Planks029L",
+   "mean": [
+    0.21,
+    0.1615,
+    0.0961
+   ],
+   "rough": 0.699
+  },
+  "marble": {
+   "layer": 26,
+   "metres": 2.5,
+   "source": "acg:Marble012",
+   "mean": [
+    0.3832,
+    0.3877,
+    0.4309
+   ],
+   "rough": 0.217
+  },
+  "painted_metal": {
+   "layer": 27,
+   "metres": 2.0,
+   "source": "acg:PaintedMetal010",
+   "mean": [
+    0.5848,
+    0.5971,
+    0.5726
+   ],
+   "rough": 0.407
+  },
+  "sandstone": {
+   "layer": 28,
+   "metres": 2.5,
+   "source": "acg:Rock030",
+   "mean": [
+    0.1548,
+    0.1269,
+    0.0799
+   ],
+   "rough": 0.783
+  },
+  "cliff_rock": {
+   "layer": 29,
+   "metres": 4.0,
+   "source": "acg:Rock030",
+   "mean": [
+    0.047,
+    0.0485,
+    0.0304
+   ],
+   "rough": 0.698
+  },
+  "mosaic_tile": {
+   "layer": 30,
+   "metres": 1.0,
+   "source": "acg:Tiles133A",
+   "mean": [
+    0.4121,
+    0.446,
+    0.4159
+   ],
+   "rough": 0.434
+  },
+  "bayu_tile": {
+   "layer": 31,
+   "metres": 1.8,
+   "source": "acg:RoofingTiles015A",
+   "mean": [
+    0.0174,
+    0.0165,
+    0.0227
+   ],
+   "rough": 0.554
+  },
+  "bayu_timber": {
+   "layer": 32,
+   "metres": 2.0,
+   "source": "acg:Planks029L",
+   "mean": [
+    0.045,
+    0.0141,
+    0.0044
+   ],
+   "rough": 0.603
+  },
+  "limestone": {
+   "layer": 33,
+   "metres": 2.5,
+   "source": "acg:PavingStones125A",
+   "mean": [
+    0.3163,
+    0.2504,
+    0.1507
+   ],
+   "rough": 0.639
+  },
+  "stone_steps": {
+   "layer": 34,
+   "metres": 2.0,
+   "source": "acg:Granite002A",
+   "mean": [
+    0.2008,
+    0.2289,
+    0.2516
+   ],
+   "rough": 0.273
+  },
+  "curtain_glass": {
+   "layer": 35,
+   "metres": 3.0,
+   "source": "acg:PaintedMetal010",
+   "mean": [
+    0.0494,
+    0.0745,
+    0.1097
+   ],
+   "rough": 0.183
+  },
+  "asphalt_wet": {
+   "layer": 36,
+   "metres": 3.0,
+   "source": "acg:Asphalt023S",
+   "mean": [
+    0.0525,
+    0.0518,
+    0.045
+   ],
+   "rough": 0.441
+  },
+  "red_lacquer": {
+   "layer": 37,
+   "metres": 2.0,
+   "source": "acg:Planks029L",
+   "mean": [
+    0.3895,
+    0.013,
+    0.0089
+   ],
+   "rough": 0.258
+  }
+ }
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>重庆 · 山城全景</title>
+<meta name="description" content="可以走进去的重庆 8D 魔幻山城三维城市：真实山地高程、两江交汇、洪崖洞、来福士、轻轨穿楼与跨江大桥，支持步行与飞行漫游。">
+<meta name="theme-color" content="#0d1015">
+<meta property="og:type" content="website">
+<meta property="og:title" content="重庆 · 山城全景">
+<meta property="og:description" content="可以走进去的重庆 8D 魔幻山城三维城市：真实山地高程、两江交汇、洪崖洞、来福士、轻轨穿楼与跨江大桥。">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js", "three-mesh-bvh": "./vendor/three-mesh-bvh/index.module.js", "earcut": "./vendor/earcut/earcut.js" } }
+</script>
+</head>
+<body>
+<canvas id="view" aria-label="重庆三维山城"></canvas>
+<div id="ui"></div>
+<noscript><p style="position:fixed;inset:0;display:grid;place-items:center;margin:0;color:#eee;font:16px/1.8 serif;text-align:center;padding:24px">这座三维山城需要启用 JavaScript 才能显示。</p></noscript>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

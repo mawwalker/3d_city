@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>北京 · 五环之内</title>
+<meta name="description" content="北京五环之内的三维城市模型：近百万栋真实建筑、道路、水系与西山，在金色时刻里完整呈现。">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#14110e">
+<meta property="og:title" content="北京 · 五环之内">
+<meta property="og:description" content="一座可以在浏览器里漫游的北京三维城市模型：近百万栋真实建筑、道路、水系与西山。">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://beijing.smartdeng.com/og.jpg">
+<meta property="og:url" content="https://beijing.smartdeng.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="fonts/jing-serif-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three/three.module.js" } }
+</script>
+</head>
+<body>
+<canvas id="view" aria-label="北京三维城市模型"></canvas>
+<div id="ui"></div>
+<noscript><p style="position:fixed;inset:0;display:grid;place-items:center;margin:0;color:#f3ecdd;font:16px/1.8 serif;text-align:center;padding:24px">这座三维城市需要启用 JavaScript 才能显示。</p></noscript>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>

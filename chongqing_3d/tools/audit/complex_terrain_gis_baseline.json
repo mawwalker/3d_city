@@ -1,0 +1,1524 @@
+{
+  "has_core_dem": false,
+  "core_cell_m": null,
+  "tilted_carriageways": {
+    "total_km": 8514.4,
+    "km_gt_5deg": 1918.7,
+    "km_gt_10deg": 908.3,
+    "km_gt_15deg": 432.1,
+    "km_gt_20deg": 184.8,
+    "core_total_km": 750.1,
+    "core_km_gt_5deg": 410.0,
+    "core_km_gt_10deg": 220.9,
+    "core_km_gt_15deg": 116.5,
+    "core_km_gt_20deg": 59.0,
+    "by_district": {
+      "Other": {
+        "km_tot": 4237.4,
+        "km_gt10": 827.1,
+        "km_gt15": 385.8,
+        "max_deg": 66.3
+      },
+      "Guanyinqiao_Jiangbeizui": {
+        "km_tot": 77.1,
+        "km_gt10": 16.7,
+        "km_gt15": 7.1,
+        "max_deg": 58.7
+      },
+      "Nanbin_Longmenhao_Nanshan": {
+        "km_tot": 24.6,
+        "km_gt10": 14.4,
+        "km_gt15": 9.3,
+        "max_deg": 40.2
+      },
+      "Caiyuanba_Sujiaba_Eling": {
+        "km_tot": 39.6,
+        "km_gt10": 12.0,
+        "km_gt15": 7.4,
+        "max_deg": 62.7
+      },
+      "Liziba_Fotuguan": {
+        "km_tot": 18.1,
+        "km_gt10": 11.4,
+        "km_gt15": 7.6,
+        "max_deg": 45.4
+      },
+      "Baixiangju_Dongshuimen_CW": {
+        "km_tot": 22.3,
+        "km_gt10": 10.3,
+        "km_gt15": 6.7,
+        "max_deg": 42.0
+      },
+      "Shibati_Kaixuan_Chuqimen": {
+        "km_tot": 18.1,
+        "km_gt10": 6.3,
+        "km_gt15": 3.1,
+        "max_deg": 34.1
+      },
+      "Chaotianmen_Bridge_Appr": {
+        "km_tot": 18.8,
+        "km_gt10": 4.2,
+        "km_gt15": 1.4,
+        "max_deg": 25.0
+      },
+      "Hongyadong_Cangbai_Kuixing": {
+        "km_tot": 6.3,
+        "km_gt10": 3.2,
+        "km_gt15": 2.1,
+        "max_deg": 48.9
+      },
+      "Jiefangbei_Core": {
+        "km_tot": 8.6,
+        "km_gt10": 2.2,
+        "km_gt15": 0.9,
+        "max_deg": 33.0
+      },
+      "Huangjuewan_Interchange": {
+        "km_tot": 0.7,
+        "km_gt10": 0.7,
+        "km_gt15": 0.6,
+        "max_deg": 30.9
+      }
+    },
+    "top25_by_cross_drop_m": [
+      {
+        "deg": 62.7,
+        "dh_m": 18.57,
+        "x": -1545.3,
+        "z": 1851.9,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Caiyuanba_Sujiaba_Eling"
+      },
+      {
+        "deg": 58.7,
+        "dh_m": 15.81,
+        "x": -1875.9,
+        "z": -996.7,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 40.2,
+        "dh_m": 14.53,
+        "x": 2460.3,
+        "z": 1141.1,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 40.0,
+        "dh_m": 14.41,
+        "x": 3912.3,
+        "z": -27.3,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 53.0,
+        "dh_m": 13.44,
+        "x": -1427.9,
+        "z": 860.3,
+        "W": 10.1,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 54.4,
+        "dh_m": 13.43,
+        "x": -3198.0,
+        "z": -663.3,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 37.3,
+        "dh_m": 13.11,
+        "x": 4078.5,
+        "z": 3064.9,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 34.6,
+        "dh_m": 11.88,
+        "x": 4549.4,
+        "z": 337.4,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 42.1,
+        "dh_m": 11.65,
+        "x": -3292.6,
+        "z": -418.7,
+        "W": 12.9,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 32.3,
+        "dh_m": 10.89,
+        "x": 2526.9,
+        "z": 1434.5,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 54.0,
+        "dh_m": 10.81,
+        "x": -4061.3,
+        "z": 3668.5,
+        "W": 7.8,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 45.4,
+        "dh_m": 9.33,
+        "x": -3541.5,
+        "z": 66.4,
+        "W": 9.2,
+        "cls": 3,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 40.5,
+        "dh_m": 9.09,
+        "x": -3420.4,
+        "z": 819.3,
+        "W": 10.6,
+        "cls": 2,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 48.9,
+        "dh_m": 8.98,
+        "x": -111.8,
+        "z": -512.3,
+        "W": 7.8,
+        "cls": 2,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 38.4,
+        "dh_m": 8.51,
+        "x": -5922.2,
+        "z": 76.0,
+        "W": 10.7,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 32.4,
+        "dh_m": 8.16,
+        "x": -3173.7,
+        "z": 3585.2,
+        "W": 12.9,
+        "cls": 4,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 40.2,
+        "dh_m": 8.12,
+        "x": -2007.1,
+        "z": 1989.4,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Caiyuanba_Sujiaba_Eling"
+      },
+      {
+        "deg": 41.0,
+        "dh_m": 8.0,
+        "x": 350.1,
+        "z": -566.2,
+        "W": 9.2,
+        "cls": 3,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 38.3,
+        "dh_m": 7.97,
+        "x": -2283.4,
+        "z": -1388.2,
+        "W": 10.1,
+        "cls": 2,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 36.3,
+        "dh_m": 7.97,
+        "x": -5517.5,
+        "z": 203.1,
+        "W": 10.8,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 34.1,
+        "dh_m": 7.92,
+        "x": -4648.7,
+        "z": 1324.3,
+        "W": 11.7,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 30.5,
+        "dh_m": 7.59,
+        "x": 1121.8,
+        "z": -1964.8,
+        "W": 12.9,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 37.5,
+        "dh_m": 7.36,
+        "x": -1000.5,
+        "z": -613.2,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 34.5,
+        "dh_m": 7.28,
+        "x": -2054.4,
+        "z": 542.0,
+        "W": 10.6,
+        "cls": 4,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 45.3,
+        "dh_m": 7.27,
+        "x": -3994.0,
+        "z": 722.8,
+        "W": 7.2,
+        "cls": 5,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      }
+    ],
+    "top25_by_angle_deg": [
+      {
+        "deg": 62.7,
+        "dh_m": 18.57,
+        "x": -1545.3,
+        "z": 1851.9,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Caiyuanba_Sujiaba_Eling"
+      },
+      {
+        "deg": 58.7,
+        "dh_m": 15.81,
+        "x": -1875.9,
+        "z": -996.7,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 54.4,
+        "dh_m": 13.43,
+        "x": -3198.0,
+        "z": -663.3,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 54.0,
+        "dh_m": 10.81,
+        "x": -4061.3,
+        "z": 3668.5,
+        "W": 7.8,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 53.0,
+        "dh_m": 13.44,
+        "x": -1427.9,
+        "z": 860.3,
+        "W": 10.1,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 48.9,
+        "dh_m": 8.98,
+        "x": -111.8,
+        "z": -512.3,
+        "W": 7.8,
+        "cls": 2,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 45.4,
+        "dh_m": 9.33,
+        "x": -3541.5,
+        "z": 66.4,
+        "W": 9.2,
+        "cls": 3,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 45.3,
+        "dh_m": 7.27,
+        "x": -3994.0,
+        "z": 722.8,
+        "W": 7.2,
+        "cls": 5,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 44.2,
+        "dh_m": 7.05,
+        "x": -3717.6,
+        "z": 330.8,
+        "W": 7.2,
+        "cls": 3,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 43.1,
+        "dh_m": 10.08,
+        "x": -3304.3,
+        "z": -424.7,
+        "W": 10.8,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 42.0,
+        "dh_m": 7.13,
+        "x": 1664.8,
+        "z": 43.5,
+        "W": 7.9,
+        "cls": 2,
+        "name": "",
+        "district": "Baixiangju_Dongshuimen_CW"
+      },
+      {
+        "deg": 41.0,
+        "dh_m": 8.0,
+        "x": 350.1,
+        "z": -566.2,
+        "W": 9.2,
+        "cls": 3,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 40.5,
+        "dh_m": 9.09,
+        "x": -3420.4,
+        "z": 819.3,
+        "W": 10.6,
+        "cls": 2,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 40.5,
+        "dh_m": 5.12,
+        "x": -4805.8,
+        "z": 2811.9,
+        "W": 6.0,
+        "cls": 5,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 40.2,
+        "dh_m": 8.12,
+        "x": -2007.1,
+        "z": 1989.4,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Caiyuanba_Sujiaba_Eling"
+      },
+      {
+        "deg": 40.2,
+        "dh_m": 14.53,
+        "x": 2460.3,
+        "z": 1141.1,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 40.0,
+        "dh_m": 14.41,
+        "x": 3912.3,
+        "z": -27.3,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 39.5,
+        "dh_m": 5.72,
+        "x": 159.5,
+        "z": -582.4,
+        "W": 7.0,
+        "cls": 2,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 39.4,
+        "dh_m": 4.92,
+        "x": 4966.4,
+        "z": 5.4,
+        "W": 6.0,
+        "cls": 5,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 38.5,
+        "dh_m": 5.54,
+        "x": -1795.2,
+        "z": 731.4,
+        "W": 7.0,
+        "cls": 3,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 38.5,
+        "dh_m": 6.85,
+        "x": -1680.6,
+        "z": 1941.5,
+        "W": 8.6,
+        "cls": 4,
+        "name": "",
+        "district": "Caiyuanba_Sujiaba_Eling"
+      },
+      {
+        "deg": 38.4,
+        "dh_m": 8.51,
+        "x": -5922.2,
+        "z": 76.0,
+        "W": 10.7,
+        "cls": 2,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 38.3,
+        "dh_m": 7.97,
+        "x": -2283.4,
+        "z": -1388.2,
+        "W": 10.1,
+        "cls": 2,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 37.5,
+        "dh_m": 7.36,
+        "x": -1000.5,
+        "z": -613.2,
+        "W": 9.6,
+        "cls": 2,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 37.3,
+        "dh_m": 13.11,
+        "x": 4078.5,
+        "z": 3064.9,
+        "W": 17.2,
+        "cls": 3,
+        "name": "",
+        "district": "Other"
+      }
+    ]
+  },
+  "tilted_footways": {
+    "total_km": 1134.6,
+    "km_gt_5deg": 303.0,
+    "km_gt_10deg": 140.4,
+    "km_gt_15deg": 61.2,
+    "km_gt_20deg": 24.2,
+    "core_total_km": 160.8,
+    "core_km_gt_5deg": 80.9,
+    "core_km_gt_10deg": 40.9,
+    "core_km_gt_15deg": 19.2,
+    "core_km_gt_20deg": 7.7,
+    "by_district": {
+      "Other": {
+        "km_tot": 675.7,
+        "km_gt10": 125.9,
+        "km_gt15": 53.6,
+        "max_deg": 59.4
+      },
+      "Guanyinqiao_Jiangbeizui": {
+        "km_tot": 17.4,
+        "km_gt10": 5.0,
+        "km_gt15": 2.8,
+        "max_deg": 33.0
+      },
+      "Nanbin_Longmenhao_Nanshan": {
+        "km_tot": 2.8,
+        "km_gt10": 2.1,
+        "km_gt15": 1.5,
+        "max_deg": 32.3
+      },
+      "Liziba_Fotuguan": {
+        "km_tot": 4.7,
+        "km_gt10": 1.9,
+        "km_gt15": 1.1,
+        "max_deg": 32.5
+      },
+      "Baixiangju_Dongshuimen_CW": {
+        "km_tot": 3.0,
+        "km_gt10": 1.5,
+        "km_gt15": 0.5,
+        "max_deg": 24.9
+      },
+      "Caiyuanba_Sujiaba_Eling": {
+        "km_tot": 9.7,
+        "km_gt10": 1.4,
+        "km_gt15": 0.6,
+        "max_deg": 22.8
+      },
+      "Shibati_Kaixuan_Chuqimen": {
+        "km_tot": 3.3,
+        "km_gt10": 0.9,
+        "km_gt15": 0.4,
+        "max_deg": 30.5
+      },
+      "Chaotianmen_Bridge_Appr": {
+        "km_tot": 4.4,
+        "km_gt10": 0.6,
+        "km_gt15": 0.1,
+        "max_deg": 23.1
+      },
+      "Huangjuewan_Interchange": {
+        "km_tot": 1.0,
+        "km_gt10": 0.5,
+        "km_gt15": 0.3,
+        "max_deg": 27.1
+      },
+      "Hongyadong_Cangbai_Kuixing": {
+        "km_tot": 1.1,
+        "km_gt10": 0.3,
+        "km_gt15": 0.2,
+        "max_deg": 46.7
+      },
+      "Jiefangbei_Core": {
+        "km_tot": 1.7,
+        "km_gt10": 0.2,
+        "km_gt15": 0.1,
+        "max_deg": 19.3
+      }
+    },
+    "top25_by_cross_drop_m": [
+      {
+        "deg": 53.3,
+        "dh_m": 5.91,
+        "x": 1170.5,
+        "z": -1021.7,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 54.0,
+        "dh_m": 4.81,
+        "x": 1186.7,
+        "z": -873.4,
+        "W": 3.5,
+        "cls": 10,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 46.7,
+        "dh_m": 4.67,
+        "x": 354.4,
+        "z": -580.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 41.2,
+        "dh_m": 3.85,
+        "x": 72.5,
+        "z": -543.9,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 41.0,
+        "dh_m": 3.05,
+        "x": -3172.5,
+        "z": -652.3,
+        "W": 3.5,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 33.0,
+        "dh_m": 2.85,
+        "x": -2296.1,
+        "z": -1386.2,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 31.8,
+        "dh_m": 2.85,
+        "x": 3951.9,
+        "z": -764.1,
+        "W": 4.6,
+        "cls": 6,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 32.5,
+        "dh_m": 2.8,
+        "x": -3394.5,
+        "z": 959.7,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 32.3,
+        "dh_m": 2.78,
+        "x": 2293.1,
+        "z": 1810.7,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 31.9,
+        "dh_m": 2.74,
+        "x": -2777.3,
+        "z": -1435.8,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 31.5,
+        "dh_m": 2.7,
+        "x": 340.1,
+        "z": -1951.0,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 30.5,
+        "dh_m": 2.59,
+        "x": -1230.7,
+        "z": 563.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Shibati_Kaixuan_Chuqimen"
+      },
+      {
+        "deg": 29.7,
+        "dh_m": 2.51,
+        "x": -2115.5,
+        "z": -1382.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 28.7,
+        "dh_m": 2.41,
+        "x": 903.9,
+        "z": -4293.5,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.7,
+        "dh_m": 2.41,
+        "x": 1327.6,
+        "z": 2065.8,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.5,
+        "dh_m": 2.39,
+        "x": 2456.9,
+        "z": -1717.3,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.0,
+        "dh_m": 2.34,
+        "x": -2260.2,
+        "z": -972.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 27.4,
+        "dh_m": 2.28,
+        "x": -3930.1,
+        "z": 800.1,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 27.3,
+        "dh_m": 2.28,
+        "x": 2393.3,
+        "z": -4380.0,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 27.1,
+        "dh_m": 2.26,
+        "x": -5567.9,
+        "z": 3649.0,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 26.3,
+        "dh_m": 2.17,
+        "x": -3194.5,
+        "z": -3849.9,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 31.7,
+        "dh_m": 2.16,
+        "x": 2563.8,
+        "z": 391.0,
+        "W": 3.5,
+        "cls": 10,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 26.1,
+        "dh_m": 2.16,
+        "x": -3945.5,
+        "z": 2794.8,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 26.0,
+        "dh_m": 2.15,
+        "x": -2896.8,
+        "z": -1460.1,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 25.9,
+        "dh_m": 2.14,
+        "x": 3400.3,
+        "z": 2880.1,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      }
+    ],
+    "top25_by_angle_deg": [
+      {
+        "deg": 54.0,
+        "dh_m": 4.81,
+        "x": 1186.7,
+        "z": -873.4,
+        "W": 3.5,
+        "cls": 10,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 53.3,
+        "dh_m": 5.91,
+        "x": 1170.5,
+        "z": -1021.7,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 46.7,
+        "dh_m": 4.67,
+        "x": 354.4,
+        "z": -580.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 41.2,
+        "dh_m": 3.85,
+        "x": 72.5,
+        "z": -543.9,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Hongyadong_Cangbai_Kuixing"
+      },
+      {
+        "deg": 41.0,
+        "dh_m": 3.05,
+        "x": -3172.5,
+        "z": -652.3,
+        "W": 3.5,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 33.0,
+        "dh_m": 2.85,
+        "x": -2296.1,
+        "z": -1386.2,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 32.5,
+        "dh_m": 2.8,
+        "x": -3394.5,
+        "z": 959.7,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 32.3,
+        "dh_m": 2.78,
+        "x": 2293.1,
+        "z": 1810.7,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 31.9,
+        "dh_m": 2.74,
+        "x": -2777.3,
+        "z": -1435.8,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 31.8,
+        "dh_m": 2.85,
+        "x": 3951.9,
+        "z": -764.1,
+        "W": 4.6,
+        "cls": 6,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 31.7,
+        "dh_m": 2.16,
+        "x": 2563.8,
+        "z": 391.0,
+        "W": 3.5,
+        "cls": 10,
+        "name": "",
+        "district": "Nanbin_Longmenhao_Nanshan"
+      },
+      {
+        "deg": 31.5,
+        "dh_m": 2.7,
+        "x": 340.1,
+        "z": -1951.0,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 30.5,
+        "dh_m": 2.59,
+        "x": -1230.7,
+        "z": 563.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Shibati_Kaixuan_Chuqimen"
+      },
+      {
+        "deg": 29.7,
+        "dh_m": 2.0,
+        "x": 4546.7,
+        "z": 1537.9,
+        "W": 3.5,
+        "cls": 10,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 29.7,
+        "dh_m": 2.51,
+        "x": -2115.5,
+        "z": -1382.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 28.9,
+        "dh_m": 1.93,
+        "x": 1044.1,
+        "z": 2483.9,
+        "W": 3.5,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.7,
+        "dh_m": 2.41,
+        "x": 903.9,
+        "z": -4293.5,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.7,
+        "dh_m": 2.41,
+        "x": 1327.6,
+        "z": 2065.8,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.5,
+        "dh_m": 2.39,
+        "x": 2456.9,
+        "z": -1717.3,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 28.0,
+        "dh_m": 2.34,
+        "x": -2260.2,
+        "z": -972.6,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Guanyinqiao_Jiangbeizui"
+      },
+      {
+        "deg": 27.4,
+        "dh_m": 2.28,
+        "x": -3930.1,
+        "z": 800.1,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "deg": 27.3,
+        "dh_m": 2.28,
+        "x": 2393.3,
+        "z": -4380.0,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 27.1,
+        "dh_m": 2.26,
+        "x": -5567.9,
+        "z": 3649.0,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      },
+      {
+        "deg": 27.1,
+        "dh_m": 1.79,
+        "x": 4180.0,
+        "z": -863.8,
+        "W": 3.5,
+        "cls": 7,
+        "name": "",
+        "district": "Huangjuewan_Interchange"
+      },
+      {
+        "deg": 26.3,
+        "dh_m": 2.17,
+        "x": -3194.5,
+        "z": -3849.9,
+        "W": 4.4,
+        "cls": 7,
+        "name": "",
+        "district": "Other"
+      }
+    ]
+  },
+  "traffic_and_decks": {
+    "total_traffic_edges": 25640,
+    "steep_grade_edges_gt22pct": 2056,
+    "tunnels_json_portals_count": 0,
+    "total_tunnel_transitions_count": 574,
+    "unportaled_tunnel_portals_count": 574,
+    "tunnel_portal_samples": [
+      {
+        "x": -13503.6,
+        "z": -5100.7,
+        "terrainY": 61.5,
+        "district": "Other"
+      },
+      {
+        "x": -13813.7,
+        "z": -5134.9,
+        "terrainY": 92.0,
+        "district": "Other"
+      },
+      {
+        "x": -13879.0,
+        "z": -5107.7,
+        "terrainY": 114.4,
+        "district": "Other"
+      },
+      {
+        "x": -13568.9,
+        "z": -5073.2,
+        "terrainY": 88.2,
+        "district": "Other"
+      },
+      {
+        "x": -14023.0,
+        "z": 6958.6,
+        "terrainY": 144.1,
+        "district": "Other"
+      },
+      {
+        "x": -13828.6,
+        "z": 7026.1,
+        "terrainY": 131.8,
+        "district": "Other"
+      },
+      {
+        "x": -13747.0,
+        "z": 7033.2,
+        "terrainY": 134.3,
+        "district": "Other"
+      },
+      {
+        "x": -13700.4,
+        "z": 7028.8,
+        "terrainY": 134.6,
+        "district": "Other"
+      },
+      {
+        "x": -13354.5,
+        "z": 7029.7,
+        "terrainY": 135.2,
+        "district": "Other"
+      },
+      {
+        "x": -13354.2,
+        "z": 7083.4,
+        "terrainY": 125.9,
+        "district": "Other"
+      },
+      {
+        "x": -13082.9,
+        "z": 6253.3,
+        "terrainY": 147.8,
+        "district": "Other"
+      },
+      {
+        "x": -13591.3,
+        "z": 5680.6,
+        "terrainY": 133.1,
+        "district": "Other"
+      },
+      {
+        "x": -13834.1,
+        "z": 5663.4,
+        "terrainY": 138.8,
+        "district": "Other"
+      },
+      {
+        "x": -13226.5,
+        "z": 5682.0,
+        "terrainY": 134.0,
+        "district": "Other"
+      },
+      {
+        "x": -13773.4,
+        "z": 5444.1,
+        "terrainY": 132.8,
+        "district": "Other"
+      },
+      {
+        "x": -13713.6,
+        "z": 5439.3,
+        "terrainY": 131.8,
+        "district": "Other"
+      },
+      {
+        "x": -13285.5,
+        "z": 4524.5,
+        "terrainY": 123.5,
+        "district": "Other"
+      },
+      {
+        "x": -3295.6,
+        "z": 9730.3,
+        "terrainY": 36.4,
+        "district": "Other"
+      },
+      {
+        "x": -3414.2,
+        "z": 9748.8,
+        "terrainY": 34.3,
+        "district": "Other"
+      },
+      {
+        "x": -3286.1,
+        "z": -436.2,
+        "terrainY": 43.9,
+        "district": "Other"
+      }
+    ],
+    "deck_clipped_by_uphill_terrain_count": 208,
+    "top20_deck_terrain_clips": [
+      {
+        "penetration_m": 7.56,
+        "x": -4896.7,
+        "z": 795.8,
+        "center_cl": 6.2,
+        "W": 9.5,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 7.33,
+        "x": -8247.4,
+        "z": 509.6,
+        "center_cl": 6.2,
+        "W": 9.5,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 6.52,
+        "x": -8458.9,
+        "z": 527.2,
+        "center_cl": 6.2,
+        "W": 9.5,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 5.53,
+        "x": -4037.8,
+        "z": 520.0,
+        "center_cl": 6.2,
+        "W": 8.5,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 5.06,
+        "x": -4272.0,
+        "z": 649.9,
+        "center_cl": 6.2,
+        "W": 8.8,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 5.03,
+        "x": -8340.8,
+        "z": 505.8,
+        "center_cl": 6.2,
+        "W": 9.5,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 4.56,
+        "x": -7516.0,
+        "z": 220.4,
+        "center_cl": 6.2,
+        "W": 7.0,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 3.79,
+        "x": -8556.1,
+        "z": 551.0,
+        "center_cl": 7.1,
+        "W": 9.5,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 3.65,
+        "x": -3217.4,
+        "z": -647.8,
+        "center_cl": 1.8,
+        "W": 9.5,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 3.64,
+        "x": -4464.2,
+        "z": 700.5,
+        "center_cl": 6.2,
+        "W": 8.5,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 3.47,
+        "x": -4144.0,
+        "z": 575.8,
+        "center_cl": 6.2,
+        "W": 8.5,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 3.24,
+        "x": -3562.3,
+        "z": 79.3,
+        "center_cl": 2.0,
+        "W": 9.2,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 2.86,
+        "x": -3832.8,
+        "z": 396.8,
+        "center_cl": 6.2,
+        "W": 8.5,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 2.25,
+        "x": 6747.2,
+        "z": -5120.8,
+        "center_cl": 6.2,
+        "W": 13.0,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 2.09,
+        "x": 5574.3,
+        "z": 5104.7,
+        "center_cl": 1.6,
+        "W": 11.8,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 2.04,
+        "x": -4570.7,
+        "z": 5336.2,
+        "center_cl": 1.6,
+        "W": 7.0,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 2.03,
+        "x": -8128.8,
+        "z": 467.4,
+        "center_cl": 6.2,
+        "W": 7.0,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 2.0,
+        "x": -3689.9,
+        "z": 298.2,
+        "center_cl": 2.2,
+        "W": 9.2,
+        "district": "Liziba_Fotuguan"
+      },
+      {
+        "penetration_m": 1.85,
+        "x": 108.6,
+        "z": -4809.8,
+        "center_cl": 1.5,
+        "W": 13.0,
+        "district": "Other"
+      },
+      {
+        "penetration_m": 1.76,
+        "x": -3266.9,
+        "z": -563.6,
+        "center_cl": 1.5,
+        "W": 9.5,
+        "district": "Other"
+      }
+    ],
+    "hero_bridge_traffic_alignment": {
+      "qiansimen": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "dongshuimen": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "chaotianmen": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "caiyuanba": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "shibanpo": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "jialing": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "yuao": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      },
+      "huanghuayuan": {
+        "edges_over_bridge": 0,
+        "min_err_m": null,
+        "max_err_m": null,
+        "bad_samples": []
+      }
+    }
+  },
+  "steep_buildings": {
+    "total_buildings": 141517,
+    "drop_gt_5m": 35969,
+    "drop_gt_10m": 10283,
+    "drop_gt_15m": 3701,
+    "drop_gt_25m": 753,
+    "max_footprint_drop_m": 120.3,
+    "steep_buildings_within_1_5m_of_carriageway": 75
+  },
+  "elapsed_s": 9.68
+}

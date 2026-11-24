@@ -1,0 +1,9 @@
+// Cloudflare deployment template: an assets-only Worker serving site/
+// Deploy with ./deploy.sh. Uncomment and replace the custom domain route with your own domain if desired.
+{
+  "name": "shanghai-3d",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./site" },
+  "workers_dev": true
+  // "routes": [{ "pattern": "shanghai.example.com", "custom_domain": true }]
+}
